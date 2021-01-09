@@ -24,16 +24,16 @@
 
         <header class="site-head">
             <div class="site-head-container">
-                {{!-- <a class="nav-burger" href="#">
+                <a class="nav-burger" href="#">
                     <div class="hamburger hamburger--collapse" aria-label="Menu" role="button" aria-controls="navigation">
                         <div class="hamburger-box">
                             <div class="hamburger-inner"></div>
                         </div>
                     </div>
-                </a> --}}
-                {{!-- <nav id="swup" class="site-head-left">
+                </a>
+                <nav id="swup" class="site-head-left">
                     {{navigation}}
-                </nav> --}}
+                </nav>
                 <div class="site-head-center">
                     {{#if @site.logo}}
                     <a class="site-head-logo" href="{{@site.url}}"><img src="{{@site.logo}}" alt="{{@site.title}}" /></a>
@@ -41,7 +41,7 @@
                     <a class="site-head-logo" href="{{@site.url}}">{{@site.title}}</a>
                     {{/if}}
                 </div>
-                {{!-- <div class="site-head-right">
+                <div class="site-head-right">
                     <div class="social-links">
                         {{#if @site.facebook}}
                         <a href="{{facebook_url @site.facebook}}" title="Facebook" target="_blank" rel="noopener">Facebook</a>
@@ -51,7 +51,7 @@
                         {{/if}}
                         <a href="https://feedly.com/i/subscription/feed/{{@site.url}}/rss/" title="RSS" target="_blank" rel="noopener">RSS</a>
                     </div>
-                </div> --}}
+                </div>
             </div>
         </header>
 
@@ -66,7 +66,7 @@
 
         {{!-- The footer at the very bottom of the screen --}}
         <footer class="site-foot">
-            &copy; {{date format="YYYY"}} <a href="{{@site.url}}">{{@site.title}}</a> &mdash;
+            &copy; {{date format="YYYY"}} <a href="{{@site.url}}">{{@site.title}}</a> &mdash; Published with <a href="https://ghost.org" target="_blank" rel="noopener">Ghost</a>
         </footer>
 
     </div>
