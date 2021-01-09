@@ -1,8 +1,6 @@
-# London
+# Vociferousmag
 
 A custom, image-centric theme for [Ghost](http://github.com/tryghost/ghost/). Made for publishers and portfolios with plenty of graphics to show off to the world. Completely free and fully responsive, released under the MIT license.
-
-**Demo: https://london.ghost.io**
 
 &nbsp;
 
@@ -35,7 +33,7 @@ One neat trick is that you can also create custom one-off templates just by addi
 
 # Development
 
-London styles are compiled using Gulp/PostCSS to polyfill future CSS spec. You'll need [Node](https://nodejs.org/), [Yarn](https://yarnpkg.com/) and [Gulp](https://gulpjs.com) installed globally. After that, from the theme's root directory:
+Vociferousmag styles are compiled using Gulp/PostCSS to polyfill future CSS spec. You'll need [Node](https://nodejs.org/), [Yarn](https://yarnpkg.com/) and [Gulp](https://gulpjs.com) installed globally. After that, from the theme's root directory:
 
 ```bash
 $ yarn install
