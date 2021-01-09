@@ -136,6 +136,10 @@ body {
     text-align: center;
     color: color(var(--color-border) l(-20%));
     font-size: .8rem;
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    left: 0;
 }
 
 .site-foot a {
