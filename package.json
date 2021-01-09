@@ -1,6 +1,6 @@
 {
-  "name": "vociferosmag",
-  "description": "A minimum, image-centric theme for Vociferosmag.",
+  "name": "vociferousmag",
+  "description": "A minimum, image-centric theme for Vociferousmag.",
   "version": "1.0.0",
   "engines": {
     "ghost": ">=3.0.0",
