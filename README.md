@@ -4,7 +4,8 @@ A custom, image-centric theme for [Ghost](http://github.com/tryghost/ghost/). Ma
 
 &nbsp;
 
-![london](https://user-images.githubusercontent.com/120485/50552024-84837400-0c82-11e9-8f1d-cf25962c7e62.jpg)
+![alt text](https://github.com/ardiansyaherwin/vociferous-ghost-theme/blob/master/screenshot-vociferousmag?raw=true)
+
 
 
 &nbsp;
