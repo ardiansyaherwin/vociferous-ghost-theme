@@ -24,6 +24,7 @@
 
         <header class="site-head">
             <div class="site-head-container">
+                <nav id="swup" class="site-head-left"></nav>
                 <div class="site-head-center">
                     {{#if @site.logo}}
                     <a class="site-head-logo" href="{{@site.url}}"><img src="{{@site.logo}}" alt="{{@site.title}}" /></a>
@@ -31,6 +32,7 @@
                     <a class="site-head-logo" href="{{@site.url}}">{{@site.title}}</a>
                     {{/if}}
                 </div>
+                <div class="site-head-right"></div>
             </div>
         </header>
 
@@ -38,14 +40,17 @@
             <div id="swup" class="transition-fade">
 
             {{!-- All the main content gets inserted here, index.hbs, post.hbs, etc --}}
-            {{{body}}}
+            {{!-- {{{body}}} --}}
+            <header class="page-head">
+                <h2 class="page-head-title">Thoughts, stories and ideas.</h2>
+            </header>
 
             </div>
         </main>
 
         {{!-- The footer at the very bottom of the screen --}}
         <footer class="site-foot">
-            &copy; {{date format="YYYY"}} <a href="{{@site.url}}">{{@site.title}}</a> &mdash;
+            &copy; {{date format="YYYY"}} <a href="{{@site.url}}">{{@site.title}}</a>
         </footer>
 
     </div>
