@@ -4,7 +4,7 @@ A custom, image-centric theme for [Ghost](http://github.com/tryghost/ghost/). Ma
 
 &nbsp;
 
-![alt text](https://github.com/ardiansyaherwin/vociferous-ghost-theme/blob/master/screenshot-vociferousmag?raw=true)
+![alt text](https://github.com/ardiansyaherwin/vociferous-ghost-theme/blob/master/screenshot-vociferousmag.png?raw=true)
 
 
 
