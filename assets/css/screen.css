@@ -24,11 +24,16 @@ production stylesheet in assets/built/screen.css using gulp dev
 /* Main - Theme styles
 /* ---------------------------------------------------------- */
 
+html {
+  overflow: hidden;
+}
+
 body {
     font-family: 'Muli', sans-serif;
     background: var(--color-bg);
     transition: background 0.3s ease-out;
     transition-delay: 0.25;
+    overflow: hidden;
 }
 
 .img {
@@ -44,6 +49,13 @@ body {
     visibility: hidden;
     position: absolute;
     text-indent: -9999px;
+}
+
+#site-main {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 
@@ -123,11 +135,11 @@ body {
     margin: 3vw 0 1vw;
     text-align: center;
     color: color(var(--color-border) l(-20%));
-    font-size: 1.4rem;
+    font-size: .8rem;
 }
 
 .site-foot a {
-    color: var(--color-base);
+    color: color(var(--color-border) l(-20%));
 }
 
 
@@ -197,11 +209,12 @@ body {
     display: block;
     padding: 10px;
     color: var(--color-base);
-    font-size: 2.1rem;
+    font-size: 1.1rem;
     line-height: 1em;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 1px;
+    margin-top: 1rem;
 }
 
 .site-head-logo:hover {
