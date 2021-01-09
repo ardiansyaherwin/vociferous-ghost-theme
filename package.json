@@ -1,0 +1,32 @@
+{
+  "name": "vociferosmag",
+  "description": "A minimum, image-centric theme for Vociferosmag.",
+  "version": "1.0.0",
+  "engines": {
+    "ghost": ">=3.0.0",
+    "ghost-api": "v2"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Erwin Ardiansyah",
+    "email": "ardiansyah.erwin45@gmail.com",
+    "url": "https://erwinardiansyah.bitbucket.io/"
+  },
+  "gpm": {
+    "type": "theme",
+    "categories": [
+        "Minimal",
+        "Magazine"
+    ]
+  },
+  "keywords": [
+    "ghost",
+    "theme",
+    "ghost-theme",
+    "vociferousmag"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ardiansyaherwin/vociferous-ghost-theme"
+  }
+}
